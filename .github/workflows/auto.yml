@@ -1,5 +1,9 @@
 name: Auto Pluto Update
 
+# ¡Esta es la línea mágica que quita la advertencia de GitHub!
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   schedule:
     - cron: '0 * * * *'
